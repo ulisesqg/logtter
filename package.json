@@ -1,6 +1,6 @@
 {
   "name": "logtter",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Logging library",
   "main": "src/index.js",
   "type": "module",
