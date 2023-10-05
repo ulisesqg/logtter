@@ -7,11 +7,11 @@ const info = (data) => {
 }
 
 const warning = (data) => {
-    _logger('WARNING', data)
+    _logger('WARNING', `\x1b[93m${data}\x1b[0m`)
 }
 
 const error = (data) => {
-    _logger('ERROR', data)
+    _logger('ERROR', `\x1b[91m${data}\x1b[0m`)
 }
 
 function requestLogger () {
