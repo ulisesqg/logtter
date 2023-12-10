@@ -31,4 +31,4 @@ function requestLogger () {
     }
 }
 
-export {info, warning, error, requestLogger}
+module.exports = {info, warning, error, requestLogger}
